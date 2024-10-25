@@ -2782,7 +2782,7 @@ pre {
 .questName_c2d7e2 {
   @extend %discoverQuestItemName !optional;
 }
-.debugPanelStandalone_feab95 {
+.container_feab95 {
   @extend %connectionDebugPopout !optional;
 }
 .popoutText_c73c22 {
@@ -3297,6 +3297,12 @@ pre {
 }
 .roleRow_a930f1 {
   @extend %guildSettingsRoleRow !optional;
+}
+.movedTable_dd2627 {
+  @extend %guildSettingsMembersMoved !optional;
+}
+.bannerContainer_cc2901 {
+  @extend %guildSettingsShowMembersInChannelList !optional;
 }
 .roleRowDisableHover_a930f1 {
   @extend %guildSettingsRoleRowDisabled !optional;
@@ -4909,27 +4915,20 @@ pre {
 .picker_cd703d {
   @extend %soundboard !optional;
 }
-.soundButton_f40049 {
+.soundButtonRefresh_f40049 {
   @extend %soundboardSound !optional;
 }
-.categoryIcon_ceda83.selected_ceda83 {
-  @extend %soundboardGuildSelected !optional;
-}
-// Refresh, temp until global
-.picker_cd703d.refresh_cd703d {
-  @extend %soundboardRefresh !optional;
-}
-.soundButtonRefresh_f40049 {
-  @extend %soundboardSoundRefresh !optional;
-}
 .soundNameRefresh_f40049 {
-  @extend %soundboardSoundNameRefresh !optional;
+  @extend %soundboardSoundName !optional;
 }
 .soundAddButtonRefresh_c06ee5 {
-  @extend %soundboardAddRefresh !optional;
+  @extend %soundboardAdd !optional;
 }
 .soundAddTextRefresh_c06ee5 {
-  @extend %soundboardAddTextRefresh !optional;
+  @extend %soundboardAddText !optional;
+}
+.secondaryButtonRefresh_f40049 {
+  @extend %soundboardSecondaryButton !optional;
 }
 .keybindHint_c66e5e {
   @extend %soundboardHint !optional;

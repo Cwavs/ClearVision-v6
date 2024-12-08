@@ -1,0 +1,72 @@
+/* PAYMENTS */
+
+// DISCORD NITRO PAYMENT
+%nitroPaymentNote,
+%nitroPaymentWrapper,
+%nitroPaymentBody {
+  background-color: transparent;
+}
+%nitroPaymentTable {
+  background-color: hsla(0, 0%, 0%, 0.4);
+}
+%nitroPaymentDiscount {
+  background-color: $main-color;
+}
+%nitroPaymentCardInputWrapper {
+  padding: 2px;
+}
+%nitroPaymentCardInput {
+  background-color: hsla(0, 0%, 100%, 0.07);
+  box-shadow: 0 0 0 2px hsla(0, 0%, 100%, 0.09);
+}
+%nitroPaymentCardInputFocused {
+  box-shadow: 0 0 2px 2px $main-color;
+}
+
+// SERVER BOOST PAYMENT MODAL
+%themeDark %serverBoostPaymentQuantityIconWrapper {
+  background: hsla(0, 0%, 0%, 0.4);
+}
+%serverBoostPaymentQuantityIcon {
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: $hover-color;
+  }
+}
+%serverBoostPaymentActions %input {
+  box-shadow: none;
+}
+/*Boost this server button in serverboost page*/
+%serverBoostPerkContent {
+  background: transparent;
+  %serverBoostPaymentUpsellFooter {
+    background: hsla(0, 0%, 0%, 0.4);
+  }
+}
+%serverBoostPaymentPerksList {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+// GIFT MODAL
+/*other modals, nitro gift*/
+%giftModalSelectTierHeader,
+%giftModalSelectTier {
+  background: transparent;
+}
+%giftModalHeader {
+  background: transparent;
+}
+%giftModalGiftBoxSelected {
+  border: 2px solid $main-color;
+}
+%giftModalPlanSelected {
+  outline: 2px solid $main-color;
+}
+%giftModalShopIcon {
+  background: $main-color;
+}
+/*loading screen*/
+%giftModalSpinner {
+  background: rgba(0, 0, 0, 0.4);
+}

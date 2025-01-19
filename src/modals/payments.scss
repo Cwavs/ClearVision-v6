@@ -7,10 +7,10 @@
 }
 
 // PURCHASE NITRO
-%nitroPaymentNitroHeader,
+%nitroPaymentHeader,
 %nitroPaymentBreadcrumb,
 %nitroPaymentBody {
-  background-color: transparent;
+  background: transparent;
 }
 %nitroPaymentDiscount {
   background-color: $main-color;
@@ -20,6 +20,12 @@
 }
 %nitroPaymentUpdateTableDivider {
   background-color: transparent;
+}
+%nitroPaymentDowngrade {
+  background-color: transparent;
+}
+%nitroPaymentDowngradeCard {
+  background-color: hsla(0, 0%, 100%, 0.07);
 }
 
 // GIFT MODAL
